@@ -1,0 +1,19 @@
+{
+  "name": "myhapiserver",
+  "version": "1.0.0",
+  "description": "A simple Hapi Server",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "npm run test"
+  },
+  "keywords": [
+    "Hapi"
+  ],
+  "author": "nitiiink1",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/hapi": "^21.3.2",
+    "dotenv": "^16.3.1"
+  }
+}
